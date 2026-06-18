@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+#cesiumContainer {
+  background: gray;
+  height: 100vh;
+  width: 100%;
+}
+
+#flyHome {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 10;
+    padding: 10px 14px;
+    background: rgba(75, 207, 255, 0.6);
+    border: 1px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#firstPerson {
+    position: absolute;
+    top: 70px;
+    left: 15px;
+    z-index: 10;
+    padding: 10px 14px;
+    background: rgba(75, 207, 255, 0.6);
+    border: 1px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#fpHint {
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+    z-index: 10;
+    padding: 10px 14px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 10px;
+    pointer-events: none;
+}
